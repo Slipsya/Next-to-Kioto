@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imj/logo2.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:ital,wght@0,400;0,500;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Next to KIOTO</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <div class="header_block">
+                    <nav>
+                        <a class ="nav_link active"  href="../NtK/index.html">Главная</a>
+                        <a class ="nav_link" href="../NtK/stocks.html">Акции</a>
+                        <a class ="nav_link" href="../NtK/menu.html">Меню</a>
+                        <a class ="nav_link" href = "../NtK/location.html">Где мы</a>
+                    </nav>
+                </div>
+
+                <a href="#" class="logo">
+                    <img src="imj/trace2.svg" alt="logo">
+                </a>
+
+                <div class="header_block right">
+                    <div class="header_actions">
+                        <a class ="header_link" href="../NtK/basket.html">
+                            <img src="imj/bascket.svg" alt="basket">
+                            <span class="header_link-event"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+        <div class="checkout">
+            <div class="container">
+                <div class="block_tittle">
+                    Корзина
+                </div>
+                <div class="checkout_wrapper">
+                    <div class="checkout_block">
+                        <div class="checkout_table">
+                            <img class="checkout_image" src="imj/items/item_1.png" alt="">
+                            <div class="checkout_table_item">
+                                <div class="checkout_tittle">
+                                    Латте
+                                </div>
+                                <div class="checkout_size">
+                                    <input class="k" id="num1" />
+                                    </div>
+                                <div class="select">
+                                    <select name="">
+                                        <option value="1">М</option>
+                                        <option value="2">L</option>
+                                        <option value="3">XL</option>
+                                        <option value="4">XXL</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                          
+                          </body>
+                          </html>
+                            <div class="checkout_actions">
+                                <a href="#" class="checout_remove">
+                                    <img src="imj/trash.svg" alt="basket">
+                                </a>
+                                <div class="checkout_price" id="num2">
+                                    220p.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                        
+                    </div>  
+                    <div class="checkout_total">
+                        
+                        
+                        <div class="checkout_total_row total" >
+                            <div class="tittle" id="result"></div>
+                            <div class="tittle"></div>
+                            
+                            <div class="count" onclick="func()">Итого</div>
+                        </div>
+                        <div class="checkout_total_row">
+                                                        
+                            <div class="count">0р.</div>
+                            <div class="tittle">Доставка</div>
+                        </div>
+                        <p id="result"></p>
+                        <a href="https://www.tinkoff.ru/rm/rykova.aleksandra34/XR6vL3743/" class="btn btn-main btn-full">Купить</a>
+                    </div>  
+                </div>
+            </div>
+        </div>
+         
+        <script>
+
+            function func() {
+
+              var result;
+
+              var num1 = Number(document.getElementById("num1").value);
+              var num2 = 220;
+              
+              result = num1 * num2;
+
+              document.getElementById("result").innerHTML = result;
+            }
+          </script>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer_wrapper">
+            <div class="footer_block">
+                <a class="footer_logo" href="index.html">
+                    <img class="logo" src="imj/trace2 (1).svg" alt="logo">
+                </a>
+            </div>
+            <div class="footer_block">
+                <nav class="nav-footer">
+                    <a class ="nav_link active"  href="index.html">Главная</br></a>
+                    <a class ="nav_link" href="stocks.html">Акции</br></a>
+                    <a class ="nav_link" href="menu.html">Меню</br></a>
+                    <a class ="nav_link" href = "location.html">Где мы</br></a>
+                </nav>
+            </div>
+            <div class="footer_block">
+                <a class ="nav_link" href="location.html">ул. Малиновского 73</br></a>
+                <a class ="nav_link" href="#">8-998-785-7777</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
